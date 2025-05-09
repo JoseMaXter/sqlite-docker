@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center gap-9">
       <form className="flex flex-col gap-3 w-1/2" onSubmit={handleSubmit}>
-        <h1 className="text-2xl font-bold text-center">Create User 3.0</h1>
+        <h1 className="text-2xl font-bold text-center">Create User 4.0</h1>
         <input
           className="border-2 border-gray-300 rounded-md p-2 outline-none"
           type="text"

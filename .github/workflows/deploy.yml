@@ -20,4 +20,6 @@ jobs:
             git pull
             docker-compose down
             docker-compose build
-            docker-compose up
+            docker-compose up -d
+            docker-compose ps
+            echo "Despliegue completado: $(date)"
